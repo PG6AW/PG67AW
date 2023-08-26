@@ -86,9 +86,9 @@ if issues == True:
     print("Miscalculation occured since you entered a NUMBER with DIGITS EQUIVALENT or ABOVE the given BASE or perhaps, whether the BASE for the ORIGIN NUMBER or the BASE for the CONVERTING STAGE point is above 36!!! However the invalid output would be as follows: ")
 if base <= 10 and nothing_out == False:
     print()
-    print(f"The final result for {saved} in base {saved2} transforming to the base of {saved3} is:",int(result))
+    print(f'The final result for ("{saved}") in base ("{saved2}") transforming to the base of ("{saved3}") is:',f'("{int(result)}")')
 elif nothing_out == False:
     print()
-    print(f"The final result for {saved} in base {saved2} transforming to the base of {saved3} is:",str(result))
+    print(f'The final result for ("{saved}") in base ("{saved2}") transforming to the base of ("{saved3}") is:',f'("{str(result)}")')
 if nothing_out == True:
     print("Invalid Base given!")
