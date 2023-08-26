@@ -52,9 +52,7 @@ if nothing_out == True:
 n = int(stage1)
 base = int(input("Enter the base for the result form in which you'd like the number to be transformed into: "))
 saved3 = base
-if int(saved3) > 36:
-    issues = True
-if int(saved3) < 2:
+if int(saved3) < 2 or int(saved3) > 36:
     nothing_out = True   
 if nothing_out == True:
     remainder = 0
